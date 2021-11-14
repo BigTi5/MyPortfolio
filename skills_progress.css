@@ -1,0 +1,108 @@
+.prog-bar::before {
+
+	content: '';
+	position: absolute;
+	background: var(--second-color);
+	width: 50%;	/* default value */
+	height: calc( 100% - 8px );
+	border: 2px solid transparent;
+	border-radius: 99px;
+	z-index: 1;
+	align-self: flex-start;
+	min-width: 1em !important;
+	max-width: calc( 100% - 8px) !important;
+
+}
+
+.prog-bar::after {
+
+	content: '50%'; /* default value */
+	position: absolute;
+	z-index: 2;
+	align-self: center;
+
+}
+
+.python .prog-bar::before {
+
+	width: 0%;
+
+}
+
+.python .prog-bar::after {
+
+	content: '0%';
+
+}
+
+.java .prog-bar::before {
+
+	width: 45%;
+
+}
+
+.java .prog-bar::after {
+
+	content: '45%';
+
+}
+
+.html .prog-bar::before {
+
+	width: 100%;
+
+}
+
+.html .prog-bar::after {
+
+	content: '100%';
+
+}
+
+.css .prog-bar::before {
+
+	width: 95%;
+
+}
+
+.css .prog-bar::after {
+
+	content: '95%';
+
+}
+
+.js .prog-bar::before {
+
+	width: 30%;
+
+}
+
+.js .prog-bar::after {
+
+	content: '30%';
+
+}
+
+.excel .prog-bar::before {
+
+	width: 80%;
+
+}
+
+.excel .prog-bar::after {
+
+	content: '80%';
+
+}
+
+.cpp .prog-bar::before {
+
+	width: 70%;
+
+}
+
+.cpp .prog-bar::after {
+
+	content: '70%';
+
+}
