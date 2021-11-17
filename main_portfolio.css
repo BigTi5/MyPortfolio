@@ -34,8 +34,10 @@ html
 
 	font-family: sans-serif;
 	background: var(--bg-color);
+    scroll-behavior: smooth;
 
 }
+
 
 a {
 
