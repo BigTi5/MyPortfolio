@@ -237,7 +237,7 @@ header {
 
 }
 
-#main-bg {
+.main-bg {
 
 	background: var(--main-bg-color);
 	clip-path: ellipse(105% 100% at 17% 0%);
@@ -248,28 +248,28 @@ header {
 
 }
 
-#second-bg {
+.second-bg {
 
 	background: var(--second-bg-color);
 	clip-path: ellipse(125% 100% at 17% 0%);
 
 }
 
-#third-bg {
+.third-bg {
 
 	background: var(--third-bg-color);
 	clip-path: ellipse(145% 100% at 17% 0%);
 
 }
 
-#fourth-bg {
+.fourth-bg {
 
 	background: var(--fourth-bg-color);
 	clip-path: ellipse(165% 100% at 17% 0%);
 
 }
 
-#final-bg {
+.final-bg {
 
 	background: var(--final-bg-color);
 	clip-path: ellipse(185% 100% at 17% 0%);
