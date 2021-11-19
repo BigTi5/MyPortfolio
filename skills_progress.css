@@ -25,13 +25,13 @@
 
 .python .prog-bar::before {
 
-	width: 0%;
+	width: 10%;
 
 }
 
 .python .prog-bar::after {
 
-	content: '0%';
+	content: '10%';
 
 }
 
@@ -44,6 +44,18 @@
 .java .prog-bar::after {
 
 	content: '45%';
+
+}
+
+.backend .prog-bar::before {
+
+	width: 10%;
+
+}
+
+.backend .prog-bar::after {
+
+	content: '10%';
 
 }
 
