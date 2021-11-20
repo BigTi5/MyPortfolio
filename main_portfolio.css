@@ -583,6 +583,7 @@ section > .tag {
 	flex-grow: 1;
 	text-align: center;
 	position: relative;
+	white-space: nowrap;
 
 }
 
@@ -629,7 +630,6 @@ section > .tag {
 
 .resume {
 
-	margin: 2em 0;
 	height: fit-content;
 	position: relative;
 	background: var(--second-bg-color);
