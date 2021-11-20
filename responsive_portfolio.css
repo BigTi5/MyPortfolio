@@ -98,7 +98,15 @@
 
 @media only screen and (max-width: 940px) { /* //////////////////////////////// 940px ////////////////////////////////// */
 
+	/* ===== Public ===== */
 
+	section > .tag {
+
+		margin-bottom: 2em;
+
+	}
+
+	/* ===== Footer ===== */
 	.z-align {
 
 		flex-direction: row;
@@ -285,6 +293,14 @@
 
 @media only screen and (max-width: 800px) {	/* //////////////////////////////// 800px ////////////////////////////////// */
 
+	/* ===== Public ===== */
+
+	section > .tag {
+
+		margin-bottom: 1em;
+
+	}	
+
 	/* >>>>> Resume_Section <<<<< */
 
 	.cv {
@@ -301,13 +317,20 @@
 
 	.cv-details {
 
-		width: 75%;
+		width: 100%;
 
 	}
 
 	.cv-lists {
 
 		height: 250px;
+
+	}
+
+	.cv-lists .span {
+
+		font-size: 0.9em;
+		letter-spacing: -1px;
 
 	}
 
@@ -608,6 +631,12 @@
 	.top .logo-name {
 
 		font-size: 1.5em;
+
+	}
+
+	.intro-text {
+
+		font-size: 0.9em;
 
 	}
 
